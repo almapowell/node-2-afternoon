@@ -8,7 +8,7 @@ export default class Message extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      editting: false,
+      editing: false,
       text: this.props.text
     };
 
